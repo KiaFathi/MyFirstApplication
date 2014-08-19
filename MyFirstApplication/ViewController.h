@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 
 @end
