@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E02AF6919A8F71E00C7ED37 /* Earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E02AF6819A8F71E00C7ED37 /* Earth.jpeg */; };
 		2E0D3E4319A40039000C9F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D3E4219A40039000C9F86 /* main.m */; };
 		2E0D3E4619A40039000C9F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D3E4519A40039000C9F86 /* AppDelegate.m */; };
 		2E0D3E4919A40039000C9F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D3E4819A40039000C9F86 /* ViewController.m */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E02AF6819A8F71E00C7ED37 /* Earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpeg; sourceTree = "<group>"; };
 		2E0D3E3D19A40038000C9F86 /* MyFirstApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0D3E4119A40039000C9F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0D3E4219A40039000C9F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		2E0D3E4019A40038000C9F86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E02AF6819A8F71E00C7ED37 /* Earth.jpeg */,
 				2E0D3E4119A40039000C9F86 /* Info.plist */,
 				2E0D3E4219A40039000C9F86 /* main.m */,
 			);
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0D3E4C19A40039000C9F86 /* Main.storyboard in Resources */,
+				2E02AF6919A8F71E00C7ED37 /* Earth.jpeg in Resources */,
 				2E0D3E4E19A40039000C9F86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

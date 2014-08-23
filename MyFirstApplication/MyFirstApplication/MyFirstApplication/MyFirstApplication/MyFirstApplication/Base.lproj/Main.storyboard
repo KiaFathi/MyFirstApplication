@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="mzQ-GX-wPT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
@@ -14,20 +14,20 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="94" placeholderIntrinsicHeight="21" text="Hello World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pu9-jC-fS5" colorLabel="IBBuiltInLabel-Yellow">
-                                <rect key="frame" x="59" y="91" width="202" height="112"/>
+                                <rect key="frame" x="59" y="46" width="202" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TamilSangamMN-Bold" family="Tamil Sangam MN" pointSize="20"/>
                                 <color key="textColor" red="0.58009022438551694" green="0.067703711869256999" blue="0.62584832702020199" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Information..." textAlignment="center" minimumFontSize="17" id="e0z-E9-cW4">
-                                <rect key="frame" x="59" y="267" width="202" height="30"/>
+                                <rect key="frame" x="59" y="222" width="202" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1DQ-DX-OHo">
-                                <rect key="frame" x="114" y="211" width="92" height="30"/>
+                                <rect key="frame" x="114" y="298" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="18"/>
                                 <state key="normal" title="Button">
@@ -41,13 +41,6 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Wbz-9b-lsA">
-                        <barButtonItem key="rightBarButtonItem" title="Next Page" id="hmI-Lk-dqa">
-                            <connections>
-                                <segue destination="Gn7-1W-pbg" kind="push" id="yVt-Nm-Gsm"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
                         <outlet property="textField" destination="e0z-E9-cW4" id="s9f-dQ-a5r"/>
                         <outlet property="titleLabel" destination="Pu9-jC-fS5" id="AuH-r5-vWI"/>
@@ -55,51 +48,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-169" y="-818"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="QZy-gB-zbA">
-            <objects>
-                <viewController id="Gn7-1W-pbg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b4w-d7-Ujd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Earth.jpeg" id="Skh-5l-e3a">
-                                <rect key="frame" x="13" y="116" width="294" height="263"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="6GR-FX-y05"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DCp-9P-3II" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="464" y="-818"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="yfv-Zr-72Y">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mzQ-GX-wPT" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hGu-q2-MIx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="2fh-PB-H7g"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NSH-mY-Bs6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
             <point key="canvasLocation" x="-701" y="-818"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Earth.jpeg" width="275" height="183"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
