@@ -25,6 +25,6 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    self.titleLabel.text = @"Hello Button Press!";
+    self.titleLabel.text = self.textField.text;
 }
 @end
